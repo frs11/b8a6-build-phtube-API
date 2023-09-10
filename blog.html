@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post | Answers</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <section class="w-10/12 mx-auto py-10 px-">
+
+        <!-- Go Back Button -->
+        <button class="px-4 py-1 bg-slate-300 font-medium rounded-lg my-5 shadow-lg hover:shadow-xl hover:bg-slate-500 hover:text-white" onclick="goBackButton()">Go Back</button>
+
+        <!-- Question 1 -->
+        <div class="py-5 px-8 shadow-lg">
+            <h3 class="text-xl font-semibold text-center py-2 bg-slate-300 rounded-lg mt-5 mb-2">Question No: 1</h3>
+            <h4 class="text-lg font-semibold mb-2 pl-2">Question: Discuss the scope of var, let, and const </h4>
+            <p class="text-base"><span class="underline font-semibold">Answer</span>: In Javascript <span class="font-bold">var, let</span> and <span class="font-bold">const</span> are used to declare a variable. They are unique in their own way. These 3 has their own scope.</p>
+            <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Var:</span> Var is a function scope but It can hoist. So, when a variable is declared using <span class="font-semibold">Var</span>, it hoists that variable to the top and makes it a global variable. Var can also be re-declared and re-assigned.<br>
+            <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Let:</span> variable that are declared using Let are block scoped. Which means those variables can not be accessed outside of the block. Let doesn't hoist, so unlike var, it doesn't turn it's variable into a global variable.<br>
+            <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Const:</span> Like Let, variables that are declared using Const is also a block scoped. Const variables aren't accessable outside of the block. The value of Const can not be re-assigned. Also, It doesn't hoist it's variable to the top. <br>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="py-5 px-8 shadow-lg my-8">
+            <h3 class="text-xl font-semibold text-center py-2 bg-slate-300 rounded-lg mt-5 mb-2">Question No: 2</h3>
+            <h4 class="text-lg font-semibold mb-2 pl-2">Question: Tell us the use cases of null and undefined</h4>
+            <p class="text-base"><span class="underline font-semibold">Answer</span>: <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Undefined</span> and <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Null</span> both refers to a missing value. Usually <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Undefined</span> occurs when a declared but not initialized varible is being used. If we try to access an object property or an array element that doesn't exist also gives us <span class="font-bold px-2 py-px bg-slate-300 rounded-md">undefined.</span> <br>
+            On the other hand, <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Null!</span> is used to show the absence of a value or empty value. Unlike <span class="font-bold px-2 py-px bg-slate-300 rounded-md">undefined</span>, <span class="font-bold px-2 py-px bg-slate-300 rounded-md">Null</span> is used to showcase an empty value or clear the value of a property.</p>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="py-5 px-8 shadow-lg">
+            <h3 class="text-xl font-semibold text-center py-2 bg-slate-300 rounded-lg mt-5 mb-2">Question No 3</h3>
+            <h4 class="text-lg font-semibold mb-2 pl-2">Question: What do you mean by REST API?</h4>
+            <p class="text-base"><span class="underline font-semibold">Answer</span>: Representational State Transfer, or <span class="font-bold px-2 py-px bg-slate-200 rounded-md">REST</span>, is an architectural design approach for creating networked applications. <span class="font-medium bg-slate-200">A web service that complies to the rules and guidelines of REST is known as a RESTful API (REST API)</span>. REST is an architectural set of concepts and limitations, not a protocol, that offers a simple and scalable approach to designing networked applications. <br>RESTful APIs are frequently used to create web services that can run on a variety of hardware and operating systems because they are easy to use, scalable, and capable of operating over HTTP. They are often employed in the development of web applications, the backends of mobile applications, and the online integration of many systems and services.
+            </p>
+        </div>
+    
+    </section>
+
+    <!-- Go Back Button Connect -->
+    <script src="Scripts/scripts.js"></script>
+</body>
+</html>
